@@ -1,0 +1,19 @@
+site_name: Agent Vulnerabilities Catalog
+site_description: 96 Agent vulnerabilities ranked from fundamentals to frontier
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - toc.follow
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
