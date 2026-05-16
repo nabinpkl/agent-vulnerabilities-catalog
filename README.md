@@ -19,8 +19,6 @@ Examples throughout describe a read-only chain-analysis agent that ingests on-ch
 - [Tier 8: Meta-defense and governance](#tier-8-meta-defense-and-governance) (T8.1 to T8.5). The defenses on the defenses. These apply the moment any defense exists.
 - [Tier 9: Frontier](#tier-9-frontier) (T9.1 to T9.14). Classes that emerged or solidified through 2025-2026. Many do not apply until the system reaches the relevant tier, but the class is named so the surface is visible when it grows there.
 
-Tiers roughly stack. A system that has Tier N surfaces almost always has Tiers 0 through N-1 too. Tier 9 is the exception: adaptive-attacker concerns apply the moment any defense exists, even if the agent never reached Tiers 5 or 6.
-
 ---
 
 ## Tier 0: Language-model substrate
