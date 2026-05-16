@@ -1,0 +1,29 @@
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: #f4f7fb;
+  --md-default-fg-color--light: #dce4ee;
+  --md-default-fg-color--lighter: #c4cfdd;
+  --md-default-fg-color--lightest: #aebacc;
+  --md-typeset-color: #f4f7fb;
+  --md-typeset-a-color: #8fbcff;
+  --md-code-fg-color: #f1f5fb;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset strong,
+[data-md-color-scheme="slate"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-tabs__link,
+[data-md-color-scheme="slate"] .md-header__title {
+  color: #f8fafc;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:is(:focus, :hover) {
+  color: #a9cfff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  color: #dce4ee;
+}
