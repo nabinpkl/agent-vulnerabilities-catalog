@@ -1,5 +1,7 @@
 site_name: Agent Vulnerabilities Catalog
 site_description: 96 Agent vulnerabilities ranked from fundamentals to frontier
+repo_url: https://github.com/nabinpkl/agent-vulnerabilities-catalog
+repo_name: nabinpkl/agent-vulnerabilities-catalog
 
 theme:
   name: material
