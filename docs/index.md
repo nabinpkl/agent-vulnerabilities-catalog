@@ -6,23 +6,6 @@ Most security writing about agents is either too theoretical (long taxonomies yo
 
 Examples throughout describe a read-only chain-analysis agent that ingests on-chain transactions, resolves wallet and token metadata, builds streaming graph and narrates activity profiles for a human AML analyst.
 
-## Tier index
-
-- [Tier 0: Language-model substrate](#tier-0-language-model-substrate) (T0.1 to T0.10). Applies to any system with a model and a prompt. No tools, retrieval, or multi-agent setup required.
-- [Tier 1: Retrieved-data exposure](#tier-1-retrieved-data-exposure) (T1.1 to T1.12). Opens the moment the agent reads anything it did not author. The attacker population expands to anyone with write access to the data source.
-- [Tier 2: Tool-call surface for read tools](#tier-2-tool-call-surface-for-read-tools) (T2.1 to T2.15). Live the moment any tool exists, even a read-only one. Writes add Tier 5 on top.
-- [Tier 3: Output verification](#tier-3-output-verification) (T3.1 to T3.8). What the output pipeline has to catch when input defenses pass but the model still fails honestly.
-- [Tier 4: Agent identity and domain](#tier-4-agent-identity-and-domain) (T4.1 to T4.5). Adjacent to Tier 0 but specifically about the operator's brand and the agent's declared role.
-- [Tier 5: Write-capable side effects](#tier-5-write-capable-side-effects) (T5.1 to T5.8). None of these apply to a strictly read-only agent. All become live the moment a single write tool ships.
-- [Tier 6: Multi-agent](#tier-6-multi-agent) (T6.1 to T6.6). Triggered the moment the system has more than one autonomous agent. None apply to single-agent systems.
-- [Tier 7: Infrastructure and supply chain](#tier-7-infrastructure-and-supply-chain) (T7.1 to T7.12). Cross-cutting concerns about where the code, models, and configuration come from. Most agents are exposed to some regardless of tier.
-- [Tier 8: Meta-defense and governance](#tier-8-meta-defense-and-governance) (T8.1 to T8.5). The defenses on the defenses. These apply the moment any defense exists.
-- [Tier 9: Frontier](#tier-9-frontier) (T9.1 to T9.14). Classes that emerged or solidified through 2025-2026. Many do not apply until the system reaches the relevant tier, but the class is named so the surface is visible when it grows there.
-
-Tiers roughly stack. A system that has Tier N surfaces almost always has Tiers 0 through N-1 too. Tier 9 is the exception: adaptive-attacker concerns apply the moment any defense exists, even if the agent never reached Tiers 5 or 6.
-
----
-
 ## Tier 0: Language-model substrate
 
 If the system has a model and a prompt, this tier is applicable. No tools, no retrieval, no multi-agent setup required.
